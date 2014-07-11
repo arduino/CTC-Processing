@@ -17,7 +17,9 @@ void setup() {
 
 void draw() {
   rojo = rojo - 1;            // Haz el rojo un poco mas obscuro
-  if (rojo < 0) rojo = 255;   // Cuando llegue al maximo de obscuridad, hazlo claro otra vez
+  if (rojo < 0){ 
+    rojo = 255;              // Cuando llegue al maximo de obscuridad, hazlo claro otra vez
+  }
   
   noStroke();             
   fill(rojo, 0, 0);          

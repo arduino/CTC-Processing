@@ -17,7 +17,9 @@ void setup() {
 
 void draw() {
   rojo = rojo - 1;            // Make the red a little darker
-  if (rojo < 0) rojo = 255;   // Once it reaches black, make it light red again
+  if (rojo < 0){
+    rojo = 255;                 // Once it reaches black, make it light red again
+  }
   
   noStroke();             
   fill(rojo, 0, 0);          
