@@ -6,20 +6,16 @@
  * game where our hero, the famous scientist Newton, will no let the chance
  * go of having an apple hitting his head.
  *
- * Step 5:
- *  - the apple is always falling from the same place on the screen, change its X
- *    coordinate when created to show up at different places
- *  - the 'random()' function will create a random number, it returns a number
- *    between 0 and whatever number you pass to it as a parameter between the brackets
- *  - you will need a new variable to store the X position of the apple
- *  - the coordinate value has to be changed only when the apple touches the ground
+ * Step 4:
+ *  - modify the program to make the apple fall
+ *  - you will need a variable to store the Y coordinate for the apple
+ *  - when the apple touches the ground, you will need to "hang it" from the tree again
  *
  * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden
  */
  
 int nX = 0;
-int mY = 0;  
-int mX = 15; // Apple's X coordinate
+int aY = 0;  // Apple's Y coordinate
  
 void setup() {
   size(400, 400);  
@@ -28,12 +24,11 @@ void setup() {
 void draw() {
   background(200);  
   
-  mY = mY + 1;  
-  if (mY > height) {
-    mY = 15;    
-    mX = int(random(width - 20));  // Initialize the X coordinate of the apple to a random number
+  aY = aY + 1;  // Increase apple's coordinate
+  if (aY > height) {
+    aY = 15;    // If the apple touches the ground, lift it again
   }
-  ellipse(mX, mY, 20, 20);  // Include the changes to the X coordinate to the circle's movement 
+  ellipse(15, aY, 20, 20);   // Make the Y coordinate into a variable 
   rect(nX, height - 25, 20, 20);  
 }
 

@@ -2,26 +2,25 @@
  * Catch the Apple 
  *
  * Create a videogame using Processing. The game for this exercise is
- * getting your programming skills a little further and making a computer
+ * getting your programming skills a little further and aAking a computer
  * game where our hero, the famous scientist Newton, will no let the chance
  * go of having an apple hitting his head.
  *
- * Step 7:
- *  - modify the way the apples fall to reach higher speeds
- *  - introduce a variable to store the speed
- *  - declare that variable as 'mV' as a floating point number
- *  - you can modify the speed by changing just this variable
- *  - to control the apple's movement on the Y axis, modify the type of
- *    the 'mY' variable to be a 'float'
+ * Step 8:
+ *  - mofify the apples' falling speed for them to follow the gravity
+ *  - as you know, speed can be calculated from acceleration, and position
+ *    from speed
+ *  - introduce a variable representing acceleration, make it a 'float'
  *
  * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden
  */
  
 int nX = 0;
 int nY = 0; 
-float mY = 0;  // Make mY into a float
-int mX = 15;
-float mV = 3;  // Apple's falling speed
+float aY = 0;  
+int aX = 15;
+float aV = 0;     // Apple's initial speed is zero
+float aA = 0.05;  // Apple's intial accerlation (0.98 would be too much)
  
 void setup() {
   size(400, 400);  
@@ -32,22 +31,24 @@ void draw() {
   background(200);  
   
   // Apple's movement
-  mY = mY + mV;  // Introduce the speed as an increment
-  if (mY > height) {
-    mY = 15;    
-    mX = int(random(width - 20));  
+  aV = aV + aA;  // EstiaAte the speed according to the acceleration
+  aY = aY + aV;  // EstiaAte the position according to the speed
+  if (aY > height) {
+    aY = 15;    
+    aX = int(random(width - 20)); 
+    aV = 0;  // Apples start falling at zero speed 
   }
   
   fill(255);  
   
   // Collision detection
-  if (mY + 10 > nY && mY - 10 < nY + 20) {  
-    if (mX + 10 > nX && mX - 10 < nX + 20) { 
+  if (aY + 10 > nY && aY - 10 < nY + 20) {  
+    if (aX + 10 > nX && aX - 10 < nX + 20) { 
       fill(255, 0, 0);  
     } 
   }
 
-  ellipse(mX, mY, 20, 20); 
+  ellipse(aX, aY, 20, 20); 
   rect(nX, nY, 20, 20);    
 }
 

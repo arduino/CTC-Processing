@@ -18,10 +18,10 @@
  
 int nX = 0;      // X coordinate, Newton
 int nY = 0;      // Y coordinate, Newton
-float mY = 0;    // Y coordinate, apples
-int mX = 15;     // X coordinate, apples
-float mV = 0;    // Y speed, apples
-float mA = 0.05; // Y acceleration, apples
+float aY = 0;    // Y coordinate, apples
+int aX = 15;     // X coordinate, apples
+float aV = 0;    // Y speed, apples
+float aA = 0.05; // Y acceleration, apples
 int p = 0;       // Points
 
 void setup() {
@@ -33,26 +33,26 @@ void draw() {
   background(200);  
   
   // Apple's movement
-  mV = mV + mA;  
-  mY = mY + mV;  
-  if (mY > height) {
-    mY = 15;    
-    mX = int(random(width - 20)); 
-    mV = 0;   
+  aV = aV + aA;  
+  aY = aY + aV;  
+  if (aY > height) {
+    aY = 15;    
+    aX = int(random(width - 20)); 
+    aV = 0;   
   }
   
   fill(255);  
   
   // Collision detection
-  if (mY + 10 > nY && mY - 10 < nY + 20) {  
-    if (mX + 10 > nX && mX - 10 < nX + 20) { 
+  if (aY + 10 > nY && aY - 10 < nY + 20) {  
+    if (aX + 10 > nX && aX - 10 < nX + 20) { 
       fill(255, 0, 0);  
       // If collision increase the points
       p = p + 1;
     } 
   }
 
-  ellipse(mX, mY, 20, 20); 
+  ellipse(aX, aY, 20, 20); 
   rect(nX, nY, 20, 20); 
 
   // Show the points on the screen

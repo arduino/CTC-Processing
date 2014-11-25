@@ -19,8 +19,8 @@
  
 int nX = 0;
 int nY = 0;  // Y coordinate for the square
-int mY = 0;  
-int mX = 15;
+int aY = 0;  
+int aX = 15;
  
 void setup() {
   size(400, 400);  
@@ -30,29 +30,29 @@ void setup() {
 void draw() {
   background(200);  
   
-  mY = mY + 1;  
-  if (mY > height) {
-    mY = 15;    
-    mX = int(random(width - 20));  
+  aY = aY + 1;  
+  if (aY > height) {
+    aY = 15;    
+    aX = int(random(width - 20));  
   }
   
   fill(255);  // By default fill in the shapes white
   
   // Collision detection
-  if (mY + 10 > nY && mY - 10 < nY + 20) {  // Is the circle at the same height as the square?
-    if (mX + 10 > nX && mX - 10 < nX + 20) { // Is the circle on top of the square?
+  if (aY + 10 > nY && aY - 10 < nY + 20) {  // Is the circle at the same height as the square?
+    if (aX + 10 > nX && aX - 10 < nX + 20) { // Is the circle on top of the square?
       fill(255, 0, 0);  // Change the filling color to red
     } 
   }
 
   // Lines to understand collision detection
   // uncomment them to test how things work
-  //line(0,mY-10,width,mY-10);
-  //line(mX-10,0,mX-10,height);
-  //line(0,mY+10,width,mY+10);
-  //line(mX+10,0,mX+10,height);
+  //line(0,aY-10,width,aY-10);
+  //line(aX-10,0,aX-10,height);
+  //line(0,aY+10,width,aY+10);
+  //line(aX+10,0,aX+10,height);
   
-  ellipse(mX, mY, 20, 20); 
+  ellipse(aX, aY, 20, 20); 
   rect(nX, nY, 20, 20);    // Include a variable to control the Y coordinate 
 }
 

@@ -22,10 +22,10 @@ PImage[] im = new PImage[4];
  
 int nX = 0;      // X coordinate, Newton
 int nY = 0;      // Y coordinate, Newton
-float mY = 0;    // Y coordinate, apples
-int mX = 15;     // X coordinate, apples
-float mV = 0;    // Y speed, apples
-float mA = 0.05; // Y acceleration, apples
+float aY = 0;    // Y coordinate, apples
+int aX = 15;     // X coordinate, apples
+float aV = 0;    // Y speed, apples
+float aA = 0.05; // Y acceleration, apples
 int p = 0;       // Points
 boolean pCount = true;  // Check whether to count points or not
 long t = 0;      // Store the time 
@@ -46,12 +46,12 @@ void draw() {
   image(im[0], 0, 0, width, height);  // Background image
   
   // Apple's movement
-  mV = mV + mA;  
-  mY = mY + mV;  
-  if (mY > height) {
-    mY = 15;    
-    mX = int(random(width - 20)); 
-    mV = 0;   
+  aV = aV + aA;  
+  aY = aY + aV;  
+  if (aY > height) {
+    aY = 15;    
+    aX = int(random(width - 20)); 
+    aV = 0;   
     // When throwing a new apple it will be possible 
     // to start counting points again
     pCount = true;  
@@ -60,8 +60,8 @@ void draw() {
   fill(255);  
   
   // Collision detection
-  if (mY + 50 > nY && mY < nY + 135) {  
-    if (mX + 40 > nX && mX < nX + 128) { 
+  if (aY + 50 > nY && aY < nY + 135) {  
+    if (aX + 40 > nX && aX < nX + 128) { 
       fill(255, 0, 0);  
       // If collision increase the points
       if (pCount) p = p + 1;
@@ -70,7 +70,7 @@ void draw() {
     } 
   }
 
-  image(im[1], mX, mY);  // Apple
+  image(im[1], aX, aY);  // Apple
   if(pCount) {
     image(im[2], nX, nY);  // Newton looking for apples
   } else {

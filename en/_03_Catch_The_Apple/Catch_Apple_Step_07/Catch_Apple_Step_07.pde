@@ -6,21 +6,22 @@
  * game where our hero, the famous scientist Newton, will no let the chance
  * go of having an apple hitting his head.
  *
- * Step 8:
- *  - mofify the apples' falling speed for them to follow the gravity
- *  - as you know, speed can be calculated from acceleration, and position
- *    from speed
- *  - introduce a variable representing acceleration, make it a 'float'
+ * Step 7:
+ *  - modify the way the apples fall to reach higher speeds
+ *  - introduce a variable to store the speed
+ *  - declare that variable as 'aV' as a floating point number
+ *  - you can modify the speed by changing just this variable
+ *  - to control the apple's movement on the Y axis, modify the type of
+ *    the 'aY' variable to be a 'float'
  *
  * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden
  */
  
 int nX = 0;
 int nY = 0; 
-float mY = 0;  
-int mX = 15;
-float mV = 0;     // Apple's initial speed is zero
-float mA = 0.05;  // Apple's intial accerlation (0.98 would be too much)
+float aY = 0;  // Make aY into a float
+int aX = 15;
+float aV = 3;  // Apple's falling speed
  
 void setup() {
   size(400, 400);  
@@ -31,24 +32,22 @@ void draw() {
   background(200);  
   
   // Apple's movement
-  mV = mV + mA;  // Estimate the speed according to the acceleration
-  mY = mY + mV;  // Estimate the position according to the speed
-  if (mY > height) {
-    mY = 15;    
-    mX = int(random(width - 20)); 
-    mV = 0;  // Apples start falling at zero speed 
+  aY = aY + aV;  // Introduce the speed as an increment
+  if (aY > height) {
+    aY = 15;    
+    aX = int(random(width - 20));  
   }
   
   fill(255);  
   
   // Collision detection
-  if (mY + 10 > nY && mY - 10 < nY + 20) {  
-    if (mX + 10 > nX && mX - 10 < nX + 20) { 
+  if (aY + 10 > nY && aY - 10 < nY + 20) {  
+    if (aX + 10 > nX && aX - 10 < nX + 20) { 
       fill(255, 0, 0);  
     } 
   }
 
-  ellipse(mX, mY, 20, 20); 
+  ellipse(aX, aY, 20, 20); 
   rect(nX, nY, 20, 20);    
 }
 
