@@ -18,18 +18,18 @@
  * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden 
  */
 
-int rojo = 255;
-int tiempo = 0;
+int red = 255;
+int time = 0;
  
 void setup() {
   size(400, 400);
 }
 
 void draw() {
-  tiempo = tiempo + 1;  // Increase time in one unit
-  rojo = int(128 * (1 + sin(tiempo * 2 * PI / frameRate / 20)));  // Change the color red, repeat every 20s
+  time = time + 1;  // Increase time in one unit
+  red = int(128 * (1 + sin(time * 2 * PI / frameRate / 20)));  // Change the color red, repeat every 20s
   
   noStroke();             
-  fill(rojo, 0, 0);          
+  fill(red, 0, 0);          
   ellipse(mouseX, mouseY, 30, 30); 
 }

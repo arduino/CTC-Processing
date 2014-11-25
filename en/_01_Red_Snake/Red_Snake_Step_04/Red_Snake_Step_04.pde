@@ -9,19 +9,19 @@
  * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden 
  */
  
-int rojo = 255;
+int red = 255;
  
 void setup() {
   size(400, 400);
 }
 
 void draw() {
-  rojo = rojo - 1;            // Make the red a little darker
-  if (rojo < 0){
-    rojo = 255;                 // Once it reaches black, make it light red again
+  red = red - 1;            // Make the red a little darker
+  if (red < 0){
+    red = 255;                 // Once it reaches black, make it light red again
   }
   
   noStroke();             
-  fill(rojo, 0, 0);          
+  fill(red, 0, 0);          
   ellipse(mouseX, mouseY, 30, 30); 
 }

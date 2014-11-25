@@ -9,7 +9,7 @@
  * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden 
  */
  
-int rojo = 255;
+int red = 255;
  
 void setup() {
   size(400, 400);
@@ -17,6 +17,6 @@ void setup() {
 
 void draw() {
   noStroke();             
-  fill(rojo, 0, 0);          
+  fill(red, 0, 0);          
   ellipse(mouseX, mouseY, 30, 30); // Circle according to the mouse coordinates
 }
