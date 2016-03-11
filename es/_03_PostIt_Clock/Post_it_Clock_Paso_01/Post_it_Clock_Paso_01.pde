@@ -25,7 +25,7 @@ PImage im;
 
 void setup() {
   size(400, 400);   // Hacemos el programa del tamaño de la imagen
-  im = loadImage("foto.jpg");  // Nombre de la imagen
+  im = loadImage("photo.jpg");  // Nombre de la imagen
 }
 
 void draw() {

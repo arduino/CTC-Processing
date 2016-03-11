@@ -21,7 +21,7 @@
  */
 
 PImage im[] = new PImage[4];   // Make your array bigger for it to contain 4 images
-String imFile[] = {"postit.jpg", "peninsula.jpg", "tortilla.jpg", "banana.jpg"}; 
+String imFile[] = {"one.jpg", "two.jpg", "three.jpg", "four.jpg"}; 
 
 void setup() {
   size(800, 800);  // Make your sketch bigger to show all the images at once   

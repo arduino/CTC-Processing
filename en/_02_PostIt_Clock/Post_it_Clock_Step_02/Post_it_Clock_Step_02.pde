@@ -19,8 +19,8 @@ PImage im2;
 
 void setup() {
   size(800, 400);   // Make the sketch twice the image's width
-  im = loadImage("foto.jpg");  
-  im2 = loadImage("foto2.jpg");  // Load the second image
+  im = loadImage("photo.jpg");  
+  im2 = loadImage("photo2.jpg");  // Load the second image
 }
 
 void draw() {

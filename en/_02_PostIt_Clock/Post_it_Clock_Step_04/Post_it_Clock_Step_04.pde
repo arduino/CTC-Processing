@@ -16,7 +16,7 @@
  */
 
 PImage im[] = new PImage[2]; 
-String imFile[] = {"foto.jpg", "foto2.jpg"};  // Array with the file names
+String imFile[] = {"photo.jpg", "photo2.jpg"};  // Array with the file names
 
 void setup() {
   size(800, 400);   

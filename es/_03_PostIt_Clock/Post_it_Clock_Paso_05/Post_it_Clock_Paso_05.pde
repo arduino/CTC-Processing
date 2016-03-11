@@ -22,7 +22,7 @@
  */
 
 PImage im[] = new PImage[4];   // Haz tu array mas grande para que le quepan 4 imagenes
-String imFile[] = {"postit.jpg", "peninsula.jpg", "tortilla.jpg", "banana.jpg"}; 
+String imFile[] = {"one.jpg", "two.jpg", "three.jpg", "four.jpg"}; 
 
 void setup() {
   size(800, 800);  // Haz tu programa mas grande para acomodar todas las imagenes   

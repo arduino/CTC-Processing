@@ -24,7 +24,7 @@ PImage im;
 
 void setup() {
   size(400, 400);   // We make the sketch the size of the image
-  im = loadImage("foto.jpg");  // Image name
+  im = loadImage("photo.jpg");  // Image name
 }
 
 void draw() {

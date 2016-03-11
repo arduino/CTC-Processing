@@ -20,8 +20,8 @@ PImage im2;
 
 void setup() {
   size(800, 400);   // Hacemos el programa dos veces el tamaño de la imagen en ancho
-  im = loadImage("foto.jpg");  
-  im2 = loadImage("foto2.jpg");  // Nombre de la segunda imagen
+  im = loadImage("photo.jpg");  
+  im2 = loadImage("photo2.jpg");  // Nombre de la segunda imagen
 }
 
 void draw() {
