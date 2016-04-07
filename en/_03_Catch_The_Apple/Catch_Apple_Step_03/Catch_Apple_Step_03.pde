@@ -1,20 +1,12 @@
 /*
- * Catch the Apple 
- *
- * Create a videogame using Processing. The game for this exercise is
- * getting your programming skills a little further and making a computer
- * game where our hero, the famous scientist Newton, will no let the chance
- * go of having an apple hitting his head.
- *
- * Step 3:
- *  - limit Newton's movement within the window
- *  - for this you will use the conditional functions 'if-else'
- *  - you will check that the coordinate nX is always within the
- *    program's window. This means it will have to be bigger than 0
- *    and smaller than the window's 'width'
- *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden
- */
+* _03_Catch_The_Apple
+* 
+* Create the game step-by-step, adding complexity as you move along. 
+* The aim is for Newton to collect points by getting bumped on the head
+* by as many apples as possible in half a minute.
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
  
 int nX = 0;
  

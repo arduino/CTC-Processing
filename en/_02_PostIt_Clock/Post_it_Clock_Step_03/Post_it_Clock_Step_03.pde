@@ -1,24 +1,10 @@
-/**
- * Post-it Clock  
- * 
- * This project's goal is creating a clock using images to represent numbers.
- *
- * Step 3:
- *  - modify the sketch to use arrays
- *  - arrays:
- *    + are variables that can store more than one data
- *    + have a single name, e.g. 'img'
- *    + the data can be distinguished because it is "numbered", it is what we call "indexed"
- *    + the first piece of data is indexed with 0, the second is 1, the third is 2 ...
- *    + a block of data can be addressed with the array name followed by the index number
- *      between square brackets 'img[3]'
- *    + are declared using the variable type and square brackets (check the code)
- *    + when declared you need to specify how many blocks of data it will contain
- *
- *  Note: this program is doing the same as the previous one, but in a more efficient way
- *  
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden 
- */
+/*
+* _02_PostIt_Clock
+* 
+* Create a clock where the numbers are represented by photographs ​of digits made out of Post-its
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
 
 PImage im[] = new PImage[2]; // Declare an array to contain 2 images
 

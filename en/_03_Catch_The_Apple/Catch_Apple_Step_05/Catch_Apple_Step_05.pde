@@ -1,21 +1,12 @@
 /*
- * Catch the Apple 
- *
- * Create a videogame using Processing. The game for this exercise is
- * getting your programming skills a little further and making a computer
- * game where our hero, the famous scientist Newton, will no let the chance
- * go of having an apple hitting his head.
- *
- * Step 5:
- *  - the apple is always falling from the same place on the screen, change its X
- *    coordinate when created to show up at different places
- *  - the 'random()' function will create a random number, it returns a number
- *    between 0 and whatever number you pass to it as a parameter between the brackets
- *  - you will need a new variable to store the X position of the apple
- *  - the coordinate value has to be changed only when the apple touches the ground
- *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden
- */
+* _03_Catch_The_Apple
+* 
+* Create the game step-by-step, adding complexity as you move along. 
+* The aim is for Newton to collect points by getting bumped on the head
+* by as many apples as possible in half a minute.
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
  
 int nX = 0;
 int aY = 0;  

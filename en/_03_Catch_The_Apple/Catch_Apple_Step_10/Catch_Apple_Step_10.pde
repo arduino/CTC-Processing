@@ -1,24 +1,12 @@
 /*
- * Catch the Apple 
- *
- * Create a videogame using Processing. The game for this exercise is
- * getting your programming skills a little further and making a computer
- * game where our hero, the famous scientist Newton, will no let the chance
- * go of having an apple hitting his head.
- *
- * Step 10:
- *  - the points are being counted extra, fix it
- *  - you can achieve this in two different ways:
- *    + you can throw the apple again as soon as you detect collision, or
- *    + stop counting once there is a collision and until a new apple
- *      falls from the tree
- *  - you will need a 'boolean' variable to check whether to add points or
- *    not, you will have to reset it to 'true' each time a new apple 
- *    falls from the top of the tree
- *  - los puntos se estan contabilizando extra, corrigelo
- *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden
- */
+* _03_Catch_The_Apple
+* 
+* Create the game step-by-step, adding complexity as you move along. 
+* The aim is for Newton to collect points by getting bumped on the head
+* by as many apples as possible in half a minute.
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
  
 int nX = 0;      // X coordinate, Newton
 int nY = 0;      // Y coordinate, Newton

@@ -1,18 +1,11 @@
-/**
- * Post-it Clock  
- * 
- * This project's goal is creating a clock using images to represent numbers.
- *
- * Step 2:
- *  - modify the sketch to show two images
- *  - you will need two variables, one for each image
- *  - the function 'image()' uses coordinates as parameters, and shows images one by the other
- *  - include the second image in the program dragging it over the IDE
- *
- *  Note: if your images are of 400x400 pixels, you will need a program 800x400 pixels
- *  
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden 
- */
+/*
+* _02_PostIt_Clock
+* 
+* Create a clock where the numbers are represented by photographs ​of digits made out of Post-its
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
+
 
 PImage im;
 PImage im2;

@@ -1,14 +1,11 @@
 /*
- * Red Snake 
- *
- * Program to create a red snake moving through the screen
- * 
- * Step 3:
- *  - store the intensity of the red color in a variable
- *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden 
- */
- 
+* _01_Red_Snake
+* 
+* How to program a moving object leaving traces of the mouse movement on the screen. 
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
+
 int red = 255;
  
 void setup() {

@@ -1,13 +1,10 @@
 /*
- * Red Snake 
- *
- * Program to create a red snake moving through the screen
- * 
- * Step 4:
- *  - chage the level or red with the time
- *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden 
- */
+* _01_Red_Snake
+* 
+* How to program a moving object leaving traces of the mouse movement on the screen. 
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
  
 int red = 255;
  

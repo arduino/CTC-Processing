@@ -1,20 +1,12 @@
 /*
- * Catch the Apple 
- *
- * Create a videogame using Processing. The game for this exercise is
- * getting your programming skills a little further and making a computer
- * game where our hero, the famous scientist Newton, will no let the chance
- * go of having an apple hitting his head.
- *
- * Note: if you don't know about Newton's myth with the apple, you should
- *       check it out on an encyclopedia, internet, or the like
- *
- * Step 1:
- *  - creat the game screen, the apples will be circles falling from the sky, while
- *    Newton will be represented by a square. We will change those later
- *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden
- */
+* _03_Catch_The_Apple
+* 
+* Create the game step-by-step, adding complexity as you move along. 
+* The aim is for Newton to collect points by getting bumped on the head
+* by as many apples as possible in half a minute.
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
  
 void setup() {
   size(400, 400);  // Make the screen of an average size

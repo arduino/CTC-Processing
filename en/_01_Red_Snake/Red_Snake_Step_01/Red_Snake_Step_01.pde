@@ -1,16 +1,10 @@
 /*
- * Red Snake 
- *
- * Program to create a red snake moving through the screen
- * 
- * Step 1:
- *  - create a program in a 400x400 pixels window
- *  - draw a red circle of 30 pixels diameter
- *  - make the drawing without a border, use the 'noStroke()' command
- *  - the number '20' in the equation calculating the amount of red determines
- *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden 
- */
+* _01_Red_Snake
+* 
+* How to program a moving object leaving traces of the mouse movement on the screen. 
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
  
 void setup() {
   size(400, 400);

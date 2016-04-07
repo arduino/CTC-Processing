@@ -1,24 +1,10 @@
-/**
- * Post-it Clock  
- * 
- * This project's goal is creating a clock using images to represent numbers.
- *
- * Step 5:
- *  - add more images to your program
- *  - remember you need to drag them over the IDE or copy them directly in the
- *    'data' folder inside your sketch
- *  - use the 'for()' loop to load all of the images into the array in a more
- *    efficient way
- *  - the 'for()' loop:
- *    + is used to execute repetitive actions
- *    + is useful to navigate through arrays
- *    + has three parameters separated by ';' (semicolon)
- *    + for( initialization; comparison; increment)
- *
- *  Note: look for more information about 'for' in Processing's reference
- *  
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden 
- */
+/*
+* _02_PostIt_Clock
+* 
+* Create a clock where the numbers are represented by photographs ​of digits made out of Post-its
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
 
 PImage im[] = new PImage[4];   // Make your array bigger for it to contain 4 images
 String imFile[] = {"one.jpg", "two.jpg", "three.jpg", "four.jpg"}; 

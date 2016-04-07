@@ -1,16 +1,10 @@
-/**
- * Post-it Clock  
- * 
- * This project's goal is creating a clock using images to represent numbers.
- *
- * Step 7:
- *  - take the time from the computer and represent the numbers using the images
- *  - get the hour from the system using 'hour()'
- *  - take into account that the hour has two digits and that you need to find a way
- *    to separate those
- *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden 
- */
+/*
+* _02_PostIt_Clock
+* 
+* Create a clock where the numbers are represented by photographs ​of digits made out of Post-its
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
 
 PImage im[] = new PImage[10];   // Array for 10 images
 String imFile[] = {"0.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg", "9.jpg"}; 

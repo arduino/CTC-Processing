@@ -1,21 +1,12 @@
 /*
- * Catch the Apple 
- *
- * Create a videogame using Processing. The game for this exercise is
- * getting your programming skills a little further and making a computer
- * game where our hero, the famous scientist Newton, will no let the chance
- * go of having an apple hitting his head.
- *
- * Step 7:
- *  - modify the way the apples fall to reach higher speeds
- *  - introduce a variable to store the speed
- *  - declare that variable as 'aV' as a floating point number
- *  - you can modify the speed by changing just this variable
- *  - to control the apple's movement on the Y axis, modify the type of
- *    the 'aY' variable to be a 'float'
- *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden
- */
+* _03_Catch_The_Apple
+* 
+* Create the game step-by-step, adding complexity as you move along. 
+* The aim is for Newton to collect points by getting bumped on the head
+* by as many apples as possible in half a minute.
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
  
 int nX = 0;
 int nY = 0; 

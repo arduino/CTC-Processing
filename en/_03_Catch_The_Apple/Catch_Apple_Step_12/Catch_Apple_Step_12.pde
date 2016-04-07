@@ -1,21 +1,12 @@
 /*
- * Catch the Apple 
- *
- * Create a videogame using Processing. The game for this exercise is
- * getting your programming skills a little further and making a computer
- * game where our hero, the famous scientist Newton, will no let the chance
- * go of having an apple hitting his head.
- *
- * Step 12:
- *  - include images to show the apple, the background picture and Newton
- *  - you can make your own images or look for them on the internet
- *  - it is important that you use PNG images if you want to have transparency
- *    between the background and the other images
- *  - check that when you change the images, you are also changing the game's 
- *    proportions, you might have to adjust that in the code
- *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden
- */
+* _03_Catch_The_Apple
+* 
+* Create the game step-by-step, adding complexity as you move along. 
+* The aim is for Newton to collect points by getting bumped on the head
+* by as many apples as possible in half a minute.
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
  
 String[] imFiles = {"fondo.png", "manzana.png", "newton1.png", "newton2.png"};
 PImage[] im = new PImage[4];

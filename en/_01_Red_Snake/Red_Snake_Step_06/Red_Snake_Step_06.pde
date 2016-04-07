@@ -1,16 +1,10 @@
 /*
- * Red Snake 
- *
- * Program to create a red snake moving through the screen
- * 
- * Step 6:
- *  - change the circle size with the time
- *  - just like before, you will need a variable to store the size
- *  - you can use the same function as for the color, but changing the frequency
- *  - for a better visual effect, add transparency to the color
- *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden 
- */
+* _01_Red_Snake
+* 
+* How to program a moving object leaving traces of the mouse movement on the screen. 
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
  
 int red = 255;
 int time = 0;

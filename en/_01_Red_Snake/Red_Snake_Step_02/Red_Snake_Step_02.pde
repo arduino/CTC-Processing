@@ -1,13 +1,10 @@
 /*
- * Red Snake 
- *
- * Program to create a red snake moving through the screen
- * 
- * Step 2:
- *  - make the circle move according to the mouse coordinates ('mouseX' and 'mouseY')
- *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden 
- */
+* _01_Red_Snake
+* 
+* How to program a moving object leaving traces of the mouse movement on the screen. 
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
  
 void setup() {
   size(400, 400);

@@ -1,23 +1,12 @@
 /*
- * Catch the Apple 
- *
- * Create a videogame using Processing. The game for this exercise is
- * getting your programming skills a little further and making a computer
- * game where our hero, the famous scientist Newton, will no let the chance
- * go of having an apple hitting his head.
- *
- * Step 11:
- *  - add a time counter to limit the game duration
- *  - an optimal duration for the game is half a minute, there is a 
- *    function called 'millis()' that counts the milliseconds that 
- *    passed since the last time you called it. In this way you can check if
- *    30000 milliseconds passed (or 30 seconds) in order to end the game
- *  - to store the time you need a variable of type 'long'
- *  - end the game with the function 'noLoop()'
- *  - use 'text()' to show the remaining time on the screen
- *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Sweden
- */
+* _03_Catch_The_Apple
+* 
+* Create the game step-by-step, adding complexity as you move along. 
+* The aim is for Newton to collect points by getting bumped on the head
+* by as many apples as possible in half a minute.
+*       
+* (c) 2013-2016 Arduino LLC. D. Cuartielles
+*/
 
 int nX = 0;      // X coordinate, Newton
 int nY = 0;      // Y coordinate, Newton
