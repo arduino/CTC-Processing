@@ -12,7 +12,7 @@
  *
  *  Nota: si tus imagenes son de 400x400, necesitaras un programa de 800x400 pixels
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia 
+ * (c) 2013-2016 Arduino LLC. 
  */
 
 PImage im;

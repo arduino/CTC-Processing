@@ -15,7 +15,7 @@
  *
  *  Nota: este programa hace lo mismo que el anterior
  *  
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia 
+ * (c) 2013-2016 Arduino LLC. 
  */
 
 PImage im[] = new PImage[2]; 

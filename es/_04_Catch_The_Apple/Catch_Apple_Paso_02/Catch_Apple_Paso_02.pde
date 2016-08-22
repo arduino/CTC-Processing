@@ -14,7 +14,7 @@
  *  - para mover el cuadro necesitaras una variable para almacenar su coordenada
  *    en el eje X (horizontal)
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia
+ * (c) 2013-2016 Arduino LLC.
  */
  
 int nX = 0;

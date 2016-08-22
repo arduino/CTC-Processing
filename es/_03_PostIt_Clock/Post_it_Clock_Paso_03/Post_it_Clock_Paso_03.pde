@@ -18,7 +18,7 @@
  *
  *  Nota: este programa hace lo mismo que el anterior, solo que de forma mas eficiente
  *  
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia 
+ * (c) 2013-2016 Arduino LLC. 
  */
 
 PImage im[] = new PImage[2]; // Declaracion de un array de 2 imagenes

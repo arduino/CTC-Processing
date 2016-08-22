@@ -8,7 +8,7 @@
  *
  * (veras como este programa no cambia en nada frente al Paso 2)
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia 
+ * (c) 2013-2016 Arduino LLC. 
  */
 
 int rojo = 255;

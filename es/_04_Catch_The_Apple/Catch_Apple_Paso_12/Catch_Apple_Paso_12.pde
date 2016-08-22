@@ -15,7 +15,7 @@
  *  - ten en cuenta que, al cambiar las formas por imagenes, las proporciones
  *    tambien cambian, tendras que hacer encajar esos valores en tu diseño
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia
+ * (c) 2013-2016 Arduino LLC.
  */
  
 String[] imFiles = {"fondo.png", "manzana.png", "newton1.png", "newton2.png"};

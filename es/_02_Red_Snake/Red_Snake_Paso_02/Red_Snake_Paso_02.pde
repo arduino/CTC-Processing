@@ -7,7 +7,7 @@
  *  - haz que el circulo se mueva en funcion de las coordenadas del
  *    raton (usa 'mouseX' y 'mouseY')
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia 
+ * (c) 2013-2016 Arduino LLC. 
  */
  
 void setup() {

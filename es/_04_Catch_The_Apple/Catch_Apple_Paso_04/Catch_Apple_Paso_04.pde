@@ -11,7 +11,7 @@
  *  - necesitaras una variable para contener la coordenada Y de la manzana
  *  - cuando la manzana toque el suelo, deberas volver a "colgarla" del arbol
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia
+ * (c) 2013-2016 Arduino LLC.
  */
  
 int nX = 0;

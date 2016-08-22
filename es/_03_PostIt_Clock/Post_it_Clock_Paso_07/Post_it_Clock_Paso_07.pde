@@ -10,7 +10,7 @@
  *  - ten en cuenta que la hora tiene dos digitos y por lo tanto
  *    tienes que buscar la forma de separarlos
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia 
+ * (c) 2013-2016 Arduino LLC. 
  */
 
 PImage im[] = new PImage[10];   // Array para 10 imagenes

@@ -13,7 +13,7 @@
  *    desde la velocidad
  *  - introduce una variable que represente la aceleracion, hazla de tipo 'float'
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia
+ * (c) 2013-2016 Arduino LLC.
  */
  
 int nX = 0;

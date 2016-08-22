@@ -5,7 +5,7 @@
 * The aim is for Newton to collect points by getting bumped on the head
 * by as many apples as possible in half a minute.
 *       
-* (c) 2013-2016 Arduino LLC. D. Cuartielles
+* (c) 2013-2016 Arduino LLC.
 */
  
 String[] imFiles = {"fondo.png", "manzana.png", "newton1.png", "newton2.png"};

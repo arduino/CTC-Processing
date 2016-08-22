@@ -8,7 +8,7 @@
  *  - dibuja un circulo rojo de 30 pixels de diametro
  *  - haz que el dibujo no tenga borde, usa el comando 'noStroke()'
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia 
+ * (c) 2013-2016 Arduino LLC. 
  */
  
 void setup() {

@@ -18,7 +18,7 @@
  *
  *  Nota: busca mas informacion sobre for en la referencia de Processing
  *  
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia 
+ * (c) 2013-2016 Arduino LLC. 
  */
 
 PImage im[] = new PImage[4];   // Haz tu array mas grande para que le quepan 4 imagenes

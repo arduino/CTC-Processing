@@ -14,7 +14,7 @@
  *  - necesitaras una nueva variable para almacenar la posicion en X de la manzana
  *  - la coordenada habra que cambiarla solo cuando la manzana llegue al suelo
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia
+ * (c) 2013-2016 Arduino LLC.
  */
  
 int nX = 0;

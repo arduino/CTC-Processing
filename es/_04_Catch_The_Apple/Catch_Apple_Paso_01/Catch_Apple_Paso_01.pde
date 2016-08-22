@@ -13,7 +13,7 @@
  *  - crea la pantalla del juego, las manzanas, por ahora, seran circulos que caen del
  *    cielo, mientras que Newton sera un cuadrado
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia
+ * (c) 2013-2016 Arduino LLC.
  */
  
 void setup() {

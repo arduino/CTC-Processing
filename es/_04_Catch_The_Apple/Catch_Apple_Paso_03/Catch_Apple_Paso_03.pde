@@ -13,7 +13,7 @@
  *    ventana del programa, es decir, habra de ser mayor que 0 y
  *    menor que la anchura de la ventana o 'width'
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia
+ * (c) 2013-2016 Arduino LLC.
  */
  
 int nX = 0;

@@ -16,7 +16,7 @@
  *  - termina el juego con la funcion 'noLoop()'
  *  - usa 'text()' para mostrar el tiempo que queda en la pantalla
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia
+ * (c) 2013-2016 Arduino LLC.
  */
  
 int nX = 0;      // Coordenada X, Newton

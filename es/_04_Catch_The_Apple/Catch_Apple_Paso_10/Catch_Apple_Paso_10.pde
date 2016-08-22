@@ -16,7 +16,7 @@
  *    almacenara el estado de poder contar o no puntos, la tendras que
  *    reiniciar a 'true' cada vez que se lance la manzana de nuevo
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia
+ * (c) 2013-2016 Arduino LLC.
  */
  
 int nX = 0;      // Coordenada X, Newton

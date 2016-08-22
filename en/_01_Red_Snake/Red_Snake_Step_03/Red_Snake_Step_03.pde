@@ -3,7 +3,7 @@
 * 
 * How to program a moving object leaving traces of the mouse movement on the screen. 
 *       
-* (c) 2013-2016 Arduino LLC. D. Cuartielles
+* (c) 2013-2016 Arduino LLC.
 */
 
 int red = 255;

@@ -9,7 +9,7 @@
  *  - los minutos del sistema se obtienen con la funcion 'minute()'
  *  - los segundos se obtienen con la funcion 'seconds()'
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia 
+ * (c) 2013-2016 Arduino LLC. 
  */
 
 PImage im[] = new PImage[10];   // Array para 10 imagenes

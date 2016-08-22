@@ -18,7 +18,7 @@
  *  Nota: antes de introducir una imagen, asegurate de que no es demasiado grande,
  *        reducela de tamaño a 400x400 o similar para que encaje en tu pantalla
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia 
+ * (c) 2013-2016 Arduino LLC. 
  */
 
 PImage im;

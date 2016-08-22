@@ -11,7 +11,7 @@
  *    cambiando la frecuencia
  *  - para mejor efecto visual, añade transparencia al color
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia 
+ * (c) 2013-2016 Arduino LLC. 
  */
 
 int rojo = 255;

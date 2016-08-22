@@ -15,7 +15,7 @@
  *  - para hacer el programa mas sencillo, crea una variable para almacenar las 
  *    coordenadas en Y del cuadrado
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia
+ * (c) 2013-2016 Arduino LLC.
  */
  
 int nX = 0;

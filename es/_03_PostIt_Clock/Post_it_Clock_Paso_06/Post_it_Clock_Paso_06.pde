@@ -16,7 +16,7 @@
  *  Nota: como quieres mostrar todos los numeros, tendras que hacer imagenes mas
  *        pequeñas, por ejemplo de 70 pixels de ancho
  *  
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia 
+ * (c) 2013-2016 Arduino LLC. 
  */
 
 PImage im[] = new PImage[10];   // Array para 10 imagenes

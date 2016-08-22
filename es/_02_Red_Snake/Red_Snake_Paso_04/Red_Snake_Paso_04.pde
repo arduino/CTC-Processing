@@ -6,7 +6,7 @@
  * Paso 4:
  *  - cambia la intensidad del rojo en funcion del tiempo
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia 
+ * (c) 2013-2016 Arduino LLC. 
  */
 
 int rojo = 255;

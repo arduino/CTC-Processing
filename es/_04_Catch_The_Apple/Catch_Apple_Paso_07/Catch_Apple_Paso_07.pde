@@ -14,7 +14,7 @@
  *  - para poder controlar mejor el movimiento en el eje Y de la manzana, modifica el tipo
  *    de variable de 'mY' para que sea 'float'
  *
- * (c) 2013 D. Cuartielles, Arduino Verkstad, Suecia
+ * (c) 2013-2016 Arduino LLC.
  */
  
 int nX = 0;

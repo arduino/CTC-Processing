@@ -3,7 +3,7 @@
 * 
 * Create a clock where the numbers are represented by photographs ​of digits made out of Post-its
 *       
-* (c) 2013-2016 Arduino LLC. D. Cuartielles
+* (c) 2013-2016 Arduino LLC.
 */
 
 PImage im[] = new PImage[2]; // Declare an array to contain 2 images
